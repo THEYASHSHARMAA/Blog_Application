@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #dfceb5;
+    /* position: relative; */
+}
+.navbar{ 
+    background-color: #846405;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 80px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 30px;
+    width: 40px;
+    padding-top: 4px;
+}
+.navbar-brand {
+    font-size: 28px;
+    text-decoration: none;
+    /* color: #011421; */
+    font-weight: bolder;
+    /* margin-top: 3px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    font-style:italic ;
+    /* background: linear-gradient(to right,rgb(123, 2, 2) , blue );
+    color: transparent;
+    -webkit-background-clip: text; */
+   
+
+}
+
+.heading{
+   
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+form {
+    max-width: 700px;
+    margin: auto;
+       margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid #322f2f;
+    border-radius: 14px;
+    background-color: #dfccb0;
+    box-shadow: 7px 7px #b6966e;
+}
+label {
+
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+input[type="text"], textarea {
+    align-content: center;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+input[type="submit"] {
+    background-color: #977819;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+     margin-top: 20px; 
+     font-size: larger;
+}

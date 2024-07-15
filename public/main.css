@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #dfceb5;
+    /* position: relative; */
+}
+.navbar{ 
+    background-color: #846405;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 80px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 30px;
+    width: 40px;
+    padding-top: 4px;
+}
+.navbar-brand {
+    font-size: 28px;
+    text-decoration: none;
+    /* color: #011421; */
+    font-weight: bolder;
+    /* margin-top: 3px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    font-style:italic ;
+    /* background: linear-gradient(to right,rgb(123, 2, 2) , blue );
+    color: transparent;
+    -webkit-background-clip: text; */
+   
+
+}
+
+.heading{
+   
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+form {
+    max-width: 700px;
+    margin: auto;
+       margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid #322f2f;
+    border-radius: 14px;
+    background-color: #dfccb0;
+    box-shadow: 7px 7px #b6966e;
+}
+label {
+
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+input[type="text"], textarea {
+    align-content: center;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+input[type="submit"] {
+    background-color: #977819;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+     margin-top: 20px; 
+     font-size: larger;
+}
+
+.posts {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.post-heading{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    /* margin: 20px 0 20px 50px ; */
+    text-align: center;
+    color: #744b0a;
+}
+.noBlogHeading{
+    font-size: 40px;
+    text-align: center;
+    color: #846027;
+}
+
+/* .newPost{
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+} */
+ol li::marker {
+    font-size: larger;
+    font-weight: bolder;
+}
+.post-title {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: math;
+    color: #6d3926;
+}
+.post-content {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 5px;
+    word-wrap: break-word;
+    color: #b1551a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.edit-link, .delete-link {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #6e9116;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 5px 23px 5px 23px ;
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.delete-link{
+    padding:5px 15px 5px 15px ;
+    background-color: #a2390d;
+}
