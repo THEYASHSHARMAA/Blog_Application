@@ -37,7 +37,12 @@ body {
    
 
 }
-
+h5{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #564d4d;
+}
 .heading{
    
     margin-left: auto;
@@ -119,6 +124,8 @@ input[type="submit"] {
 ol li::marker {
     font-size: larger;
     font-weight: bolder;
+    padding-left: 15px;
+    margin-left: 10px;
 }
 .post-title {
     font-size: 45px;
